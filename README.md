@@ -1,34 +1,38 @@
-# Todo-list-SpringBoot
+# Aplicação de Lista de Tarefas (ToDo list) - Backend
+
+
+
 Esta é uma aplicação back-end de lista de tarefas (ToDo list) que utiliza tecnologias modernas e práticas recomendadas para criar uma API RESTful. Ela oferece recursos para criar, listar, atualizar e excluir tarefas, bem como uma documentação automática gerada pelo Swagger com o uso do SpringDoc OpenAPI 3.
 
-# Tecnologias Utilizadas
--Spring Boot: Um framework Java que facilita a criação de aplicativos Java, incluindo o desenvolvimento de aplicativos web e RESTful.
+## Tecnologias Utilizadas
 
--Spring MVC: Um módulo do Spring Framework que facilita a criação de aplicativos web RESTful.
+**Spring Boot:** Um framework Java que facilita a criação de aplicativos Java, incluindo o desenvolvimento de aplicativos web e RESTful.
 
--Spring Data JPA: Uma parte do Spring Data que facilita o acesso a bancos de dados relacionais por meio de ORM (Object-Relational Mapping).
+**Spring MVC:** Um módulo do Spring Framework que facilita a criação de aplicativos web RESTful.
 
--SpringDoc OpenAPI 3: Uma biblioteca para gerar automaticamente documentação da API usando a especificação OpenAPI 3.
+**Spring Data JPA:** Uma parte do Spring Data que facilita o acesso a bancos de dados relacionais por meio de ORM (Object-Relational Mapping).
 
--MySQL: Um sistema de gerenciamento de banco de dados relacional amplamente utilizado.
+**SpringDoc OpenAPI 3:** Uma biblioteca para gerar automaticamente documentação da API usando a especificação OpenAPI 3.
 
-# Práticas Utilizadas
--API REST: A aplicação segue os princípios de arquitetura REST para criar endpoints que são consistentes e fáceis de usar.
+**MySQL:** Um sistema de gerenciamento de banco de dados relacional amplamente utilizado.
 
--Consultas com Spring Data JPA: O Spring Data JPA é usado para executar consultas eficientes ao banco de dados.
+## Práticas Utilizadas
 
--Injeção de Dependências: O Spring Boot facilita a injeção de dependências, permitindo a fácil gerência de componentes e serviços.
+**API REST:** A aplicação segue os princípios de arquitetura REST para criar endpoints que são consistentes e fáceis de usar.
 
--Tratamento de Respostas de Erro: A aplicação lida com erros de maneira adequada, retornando códigos de status HTTP apropriados e mensagens de erro significativas.
+**Consultas com Spring Data JPA:** O Spring Data JPA é usado para executar consultas eficientes ao banco de dados.
 
--Geração Automática do Swagger com a OpenAPI 3: A documentação da API é gerada automaticamente e pode ser acessada usando o Swagger UI para facilitar o entendimento e teste da API.
+**Injeção de Dependências:** O Spring Boot facilita a injeção de dependências, permitindo a fácil gerência de componentes e serviços.
 
-# Pré-Requisitos
+**Tratamento de Respostas de Erro:** A aplicação lida com erros de maneira adequada, retornando códigos de status HTTP apropriados e mensagens de erro significativas.
+
+**Geração Automática do Swagger com a OpenAPI 3:** A documentação da API é gerada automaticamente e pode ser acessada usando o Swagger UI para facilitar o entendimento e teste da API.
+
+## Pré-Requisitos
+
 Antes de executar a aplicação, certifique-se de ter instalado o seguinte:
 
--Java Development Kit (JDK)
--MySQL (ou outro banco de dados compatível)
--Maven (opcional, se você preferir construir o projeto com o Maven)
-
-
+- Java Development Kit (JDK)
+- MySQL (ou outro banco de dados compatível)
+- Maven (opcional, se você preferir construir o projeto com o Maven)
 
